@@ -66,11 +66,11 @@
       padding-top: 40px;
     }
 
-    @media (max-width: 920px) {
+    @media (max-width: 990px) {
     .contentright {
       clear: both;
       float: none;
-      background-color: white;
+      background-color: #c1c1c1;
       text-align: center;
       padding-top: 20px;
       height: 200px;
@@ -100,6 +100,16 @@
     }
     .aboutme {
       padding-top: 30px;
+      padding-bottom: 60px;
+      width: auto;
+      margin-right: 30px;
+    }
+    .middlecontent {
+      padding-top: 20px;
+      padding-bottom: 100px;
+    }
+    .progress {
+      max-width: 90%;
     }
     }
 
@@ -109,24 +119,45 @@
 
     .aboutme {
       max-width: 650px;
-      margin-left: 30px;
+      margin-left: 50px;
+      float: left;
+      margin-right: 50px;
     }
 
     .progress {
-      height: 10px;
-      margin-top: 35px;
+      height: 5px;
+      margin-top: 30px;
+      width: 525px;
+      margin-bottom: 5px;
     }
 
     .title {
       font-weight: bold;
-      display: inline
-      margin-bottom: 10px;
+      font-size: 10px;
     }
 
     p {
       display: inline;
     }
 
+    .bartext {
+      font-size: 10px;
+    }
+
+    .middlecontent {
+      padding-top: 50px;
+      padding-bottom: 200px;
+    }
+
+    footer {
+      background-color: yellow;
+      height: 50px;
+    }
+
+    .copyright {
+      padding-top: 15px;
+      padding-left: 100px;
+    }
 
   </style>
   </head>
@@ -146,6 +177,7 @@
       <a href="https://www.linkedin.com/in/alexandriavelez/"><img  class="linkedin"></a>
     </div>
   </header>
+  <div class="middlecontent">
   <div class="aboutme">
     <h1>About me.</h1>
     </br>
@@ -158,22 +190,29 @@
           <div class="progress">
           <div data-percentage="0%" style="width: 85%; background: black;" class="progress-bar progress-bar-defualt" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="title"> WEB DESIGN </P><P> - 15 YEARS EXPREINCE </P>
+          <p class="title"> WEB DESIGN </P><P class="bartext"> - 15 YEARS EXPREINCE </P>
           <div class="progress">
           <div data-percentage="0%" style="width: 85%; background: black;" class="progress-bar progress-bar-defualt" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="title"> WEB DEVELOPMENT </P><P> - 15 YEARS EXPREINCE </P>
+          <p class="title"> WEB DEVELOPMENT </P><P class="bartext"> - 15 YEARS EXPREINCE </P>
           <div class="progress">
           <div data-percentage="0%" style="width: 85%; background: black;" class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="title"> PROJECT MANAGEMENT </P><P> - 5 YEARS EXPREINCE </P>
+          <p class="title"> PROJECT MANAGEMENT </P><P class="bartext"> - 5 YEARS EXPREINCE </P>
           <div class="progress">
           <div data-percentage="0%" style="width: 85%; background: black;" class="progress-bar progress-bar-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-          <p class="title"> ONLINE ADVERTISING </P><P> - 5 YEARS EXPREINCE </P>
+          <p class="title"> ONLINE ADVERTISING </P><P class="bartext"> - 5 YEARS EXPREINCE </P>
           </div>
       </div>
   	</div>
   </div>
+  </div>
+
+  <footer>
+    <div class="copyright">
+    <div><span class="glyphicon glyphicon-copyright-mark"></span> <p>2016 Alexandria Velez-Young </p></div>
+  </div>
+  </footer>
 </body>
 </html>
