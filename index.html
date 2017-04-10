@@ -16,10 +16,10 @@
     margin-top: -20px;
     }
     .button {
-    border-radius: 20px;
+    /* border-radius: 20px;
     font-size: 16px;
-    width: 185px;
-    height: 40px;
+    height: 40px; */
+    width: 125px;
     margin-top: 20px;
     }
     .header {
@@ -30,30 +30,33 @@
       width: 52px;
       background-image: url(Black_Social_Media_Icons.png);
       background-position: -10px 0px;
-      margin-top: 50px;
+      margin-top: 175px;
       margin-left: 5px;
+      padding: 15px 0px 30px 50px;   
     }
     .google {
       height: 45px;
       width: 54px;
       background-image: url(Black_Social_Media_Icons.png);
       background-position: 270px -42px;
-      margin-top: 50px;
+      margin-top: 175px;
+      padding: 15px 5px 30px 50px;
     }
     .pintrest {
       height: 45px;
       width: 54px;
       background-image: url(Black_Social_Media_Icons.png);
       background-position: -229px 0px;
-      margin-top: 50px;
+      margin-top: 175px;
+      padding: 15px 5px 30px 50px;
     }
     .linkedin {
       height: 45px;
       width: 54px;
       background-image: url(Black_Social_Media_Icons.png);
       background-position: -172px -42px;
-      margin-top: 50px;
-      border: 0;
+      margin-top: 175px;
+      padding: 15px 5px 30px 50px;
     }
     .contentright {
       height: 600px;
@@ -65,9 +68,14 @@
     }
     h1 {
       padding-top: 40px;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    h2 {
+      padding-top: 40px;
     }
 
-    @media (max-width: 990px) {
+    @media (max-width: 1400px) {
     .contentright {
       clear: both;
       float: none;
@@ -81,23 +89,26 @@
       display: inline;
       margin-top: 20px;
     }
+    h2 {
+      font-size: 20px;
+      margin-top: -35px;
+    }
     .button {
       display: block;
       margin: 0 auto;
       margin-top: 15px;
     }
     .facebook {
-      margin-top: 5px;
-
+      margin-top: 0px;
     }
     .pintrest {
-      margin-top: 5px;
+      margin-top: 0px;
     }
     .google {
-      margin-top: 5px;
+      margin-top: 0px;
     }
     .linkedin {
-      margin-top: 5px;
+      margin-top: 0px;
     }
     .aboutme {
       padding-top: 30px;
@@ -111,6 +122,9 @@
     }
     .progress {
       max-width: 90%;
+    }
+    .h2nextline {
+      display: none;
     }
     }
 
@@ -164,7 +178,10 @@
       height: 100%
     }
 
-    .nextline {
+    .h1nextline {
+    margin-top: -45px;
+    }
+    .h2nextline {
     margin-top: -45px;
     }
 
@@ -177,7 +194,8 @@
       <img src="AlexandriaVelezPic2.png">
     </div>
     <div class="contentright header">
-      <h1> Hello, I'm </h1><h1 class="nextline"> Alexandria Velez-Young. </h1>
+      <h1> Hello, I'm </h1><h1 class="h1nextline"> Alexandria </h1>
+      <h2> Project Manager </h2><h2 class="h2nextline"> from New York, NY. </h2>
       <a href="mailto:alexandriavelez@gmail.com" class="btn btn-primary btn-default button"><span class="glyphicon glyphicon-envelope"></span> Email Me </a>
       </br>
       <a href="https://www.facebook.com/AlexandriaVelez"><img  class="facebook"></a>
